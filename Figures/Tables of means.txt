@@ -1,0 +1,36 @@
+[1] "Figure 1: Mean RTs (congruent x fixation) for all trials"
+      eyes forehead     nose
+0 698.5613 682.1169 655.9479
+1 666.3576 683.7975 662.0289
+[1] "Figure 2: Mean RTs (congruent x fixation) for correct trials"
+      eyes forehead     nose
+0 706.1489 696.9873 665.9024
+1 674.5363 692.4710 683.4981
+[1] "Number of correct trials in each condition"
+  eyes forehead nose
+0  786      790  789
+1  798      792  799
+[1] "Figure 3: Mean RTs (congruent x fixation) for error trials"
+      eyes forehead     nose
+0 622.1026 523.3649 551.2267
+1 567.4697 588.3889 398.1231
+[1] "Number of error trials in each condition"
+  eyes forehead nose
+0   78       74   75
+1   66       72   65
+[1] "Figure 4: Mean RTs (word valence x fixation) following Black primes"
+      eyes forehead     nose
+1 688.9329 693.6458 664.3449
+2 710.5833 691.6111 673.1829
+[1] "Number of trials in each condition"
+  eyes forehead nose
+1  432      432  432
+2  432      432  432
+[1] "Figure 5: Mean RTs (word valence x fixation) following White primes"
+      eyes forehead    nose
+1 686.5394 672.6227 638.713
+2 643.7824 673.9491 659.713
+[1] "Number of trials in each condition"
+  eyes forehead nose
+1  432      432  432
+2  432      432  432
