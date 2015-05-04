@@ -1,0 +1,3 @@
+"Subno"	"correctCount"	"reason"
+"5"	96	"Bad accuracy, fast RT"
+"24"	107	"Bad accuracy, fast RT"

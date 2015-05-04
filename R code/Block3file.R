@@ -43,5 +43,7 @@ legend("topright",
 #example: Block3dat$Error = factor(Block3dat$Error)
 #summary() of facotrs will give you levels of factors and how many are in each level (frequencies of levels)
 
-
+require(dplyr)
+Block3dat = select(Block3dat, -c(WordFilename, WordValence, ))
+write.table(Block3dat, "Block3dat.txt", sep = "\t", row.names=F)
 

@@ -126,3 +126,19 @@ barplot(means5b, main="mean RT (congruence x fixation) following White primes",
         ylim = c(630,730), legend = c("incongruent", "congruent"), beside=TRUE, xpd=FALSE)
 
 
+
+
+##################################
+Block2dat$WordValence = as.factor(Block2dat$WordValence)
+Block2dat$Race = as.factor(Block2dat$Race)
+
+barW = ggplot(Block2dat, aes(Race, RT, fill = WordValence))
+barW + 
+  stat_summary(fun.y = mean, geom = "bar", position = "dodge") +
+  stat_summary(fun.data = mean_cl_normal, geom = "errorbar", position = position_dodge(width=.9), width = .2) +
+  facet_wrap(~Fix) +
+  coord_cartesian(ylim=c(500,800)) +
+  theme_bw() +
+  scale_fill_manual("WordValence", values = c("1" = "brown", "2" = "lightblue"))
+
+

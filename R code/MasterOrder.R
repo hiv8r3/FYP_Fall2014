@@ -46,6 +46,7 @@
 #2. Creates data frame of just Block 3 data
 #3. Counts number of error trials in each condition (Race x Fix)
 #4. Creates two bar plots (Fig. 6 & 7)
+#5.
 
 
 
@@ -72,3 +73,32 @@
 #Results: Main effect of Fix, interaction of Fix x Race
 #4. Does 1 way ANOVA (Fix) within each level of Race. No significant effects found.
 #5. Creates Figure 6b
+
+
+## 3rd wave ##
+
+>>> Reorganize.R
+#1. Reads in Block2dat.txt
+#2. Change some numbers to words, column names, etc
+#3. Still need to add participant race and gender
+#4. Outputs data as 
+Block2reorganized.txt
+
+>>> Badsubs.R
+#1. Figures out what subs to throw out
+#2. Throws out 5 and 24 because they were mashing buttons (fast RT and high error rate)
+
+>>> Winz_logTrans.R
+#1. Takes Block2Reorganized.txt and takes out bad subjects according to badSubs.txt
+#2. Makes columns for logRT, logRT.winz, RT.winz
+#3. Add columns for ParRace and ParGender so they match up with spring data
+#4. Outputs data as
+Fall_Block2Reorganized_log_winz.txt
+#5. Copied file over to spring data, add all data together
+
+>>>ggplotfigures.R
+#1. Reads in "Block2Reorganized_log_winz.txt"
+#2. All figures don't include 2 bad subjects
+#3. Outputs into folder "For SPAM presentation"
+
+
